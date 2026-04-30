@@ -32,7 +32,7 @@ ArceOS was inspired a lot by [Unikraft](https://github.com/unikraft/unikraft).
 Install [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) to use `rust-objcopy` and `rust-objdump` tools:
 
 ```bash
-cargo install cargo-binutils
+cargo install cargo-binutils --locked
 ```
 
 #### Dependencies for C apps
