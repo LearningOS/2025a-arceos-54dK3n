@@ -82,4 +82,3 @@ source $HOME/.cargo/env
 此时会对挑战题进行评测，并将结果输出到 `tmpa.txt` 中。
 
 关于挑战题的评分逻辑，详见[challenge](./challenges)。
-

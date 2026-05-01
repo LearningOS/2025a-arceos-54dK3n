@@ -108,4 +108,3 @@ make A=tour/m_1_1
 ./update_disk.sh ./tour/m_1_1/m_1_1_riscv64-qemu-virt.bin
 make run A=tour/h_4_0 BLK=y
 ```
-

@@ -50,7 +50,7 @@ jobs:
           components: rust-src, llvm-tools, clippy, rustfmt
           targets: x86_64-unknown-none, riscv64gc-unknown-none-elf, aarch64-unknown-none, aarch64-unknown-none-softfloat, loongarch64-unknown-none
 
-      - run: cargo install cargo-binutils
+      - run: cargo +stable install cargo-binutils --locked
 
       - name: Run basic
         id: basic_points
